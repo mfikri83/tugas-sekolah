@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hewan</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <h1>AJAX BAB-2 : XMLHttpRequest </h1>
+            <h2>Cari Hewan Di Indonesia</h2>
+        </header>
+        <main>
+            <form>
+                <label for="kata">
+                    <input type="text" id="kata" name="kata" placeholder="Cari Hewan..." onkeyup=lihat(this.value)
+                        autocomplete="off">
+                </label>
+                <div id="kotak-pencarian" style="position:absolute;top:36;left:15; background-color:lightblue; width:200; visibility:hidden; z-index:100;">
+                </div>
+            </form>
+        </main>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
