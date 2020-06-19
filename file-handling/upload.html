@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+</head>
+
+<body>
+    <h1>Picture Uploader</h1>
+    <form enctype="multipart/form-data" method="POST" action="upload.php">
+        <p>Nama Anda&nbsp; :
+            <input type="text" name="nama">&nbsp;&nbsp;
+        </p>
+        <p>Masukan Foto Anda&nbsp; :
+            <input type="file" name="picture">&nbsp;&nbsp;
+        </p>
+        Komentar : <br><textarea name="komentar"  rows="5" cols="40"></textarea>
+        <p>
+            <input type="submit" value="Submit" name="b1">
+        </p>
+    </form>
+</body>
+
+</html>
